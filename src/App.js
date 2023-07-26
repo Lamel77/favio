@@ -1,24 +1,21 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Cabecalho from './componentes/Cabecalho'
+import Rodape from './componentes/Rodape';
+import Conteudo, {OlaMundo} from './componentes/Conteudo';
+
 
 function App() {
+
+  OlaMundo();
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    /*o react substitui className por class é palavra reservada do JS*/
+    <>
+ 
+    <Cabecalho logo="logo192.png" titulo="Gerenciador de favoritos"  subtitulo= "o melhor gerenciador de favoritos da internet Brasileira"/> 
+    <Conteudo/> 
+    <Rodape/>
+    </>
   );
 }
 
