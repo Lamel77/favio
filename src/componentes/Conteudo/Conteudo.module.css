@@ -1,0 +1,9 @@
+.Conteudo {
+    display: flex;
+    justify-content: space-around;
+}
+.OlaMundo {
+    font-size: 3rem;
+    color: black;
+    background-color: aliceblue;
+}

@@ -12,7 +12,7 @@ function App() {
     /*o react substitui className por class é palavra reservada do JS*/
     <>
  
-    <Cabecalho logo="logo192.png" titulo="Gerenciador de favoritos"  subtitulo= "o melhor gerenciador de favoritos da internet Brasileira"/> 
+    <Cabecalho logo="logo192.png" titulo="Gerenciador de favoritos"  subtitulo= "O Melhor gerenciador de favoritos da internet Brasileira"/> 
     <Conteudo/> 
     <Rodape/>
     </>
